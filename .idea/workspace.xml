@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9a43e6f-131c-4b33-a42e-149cb35e61c9" name="Default Changelist" comment="" />
+    <list default="true" id="f9a43e6f-131c-4b33-a42e-149cb35e61c9" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/intercom/customers/utils/JSONFileReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +15,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1frWT7qXrrKe22IQQam56SO0vYE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,7 +41,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.intercom.customers.utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,20 +67,33 @@
       <option name="presentableId" value="Default" />
       <updated>1596976697213</updated>
       <workItem from="1596976707312" duration="3950000" />
+      <workItem from="1596981127185" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1596979216156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1596979216156" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1596976833804">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1596981370122">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1596976833804" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1596981370122" />
+    <state x="289" y="0" key="Maven.ArtifactSearchDialog" timestamp="1596981899074">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="289" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1596981899074" />
+    <state x="412" y="62" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596981732384">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="412" y="62" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1596981732384" />
   </component>
 </project>
