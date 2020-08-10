@@ -56,6 +56,6 @@ Check the version using command:
 
 Answer for this question is available at:
 
-    _src/main/java/org/intercom/proudestachievement/KanikaGhiloria_ProudestAchievement.pdf_
+    src/main/java/org/intercom/proudestachievement/KanikaGhiloria_ProudestAchievement.pdf
     
  
