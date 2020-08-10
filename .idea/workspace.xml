@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a43e6f-131c-4b33-a42e-149cb35e61c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/nearestcustomers/NearestCustomersApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TakeHomeTest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/TakeHomeTest-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/NearestCustomersApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/NearestCustomersApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/utils/InputFileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/utils/InputFileHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-TakeHomeTest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-TakeHomeTest-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.nearestcustomers.NearestCustomersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.nearestcustomers.NearestCustomersTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.utils.DistanceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.utils.DistanceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.utils.OutputFileHandlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.utils.OutputFileHandlerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.nearestcustomers.NearestCustomersTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.nearestcustomers.NearestCustomersTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.utils.DistanceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.utils.DistanceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.utils.OutputFileHandlerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.utils.OutputFileHandlerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/NearestCustomersApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/NearestCustomersApplication.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +38,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -84,21 +77,27 @@
       <recent name="org.intercom.customers.utils" />
       <recent name="org.intercom.customers.nearestcustomers" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\interview\intercom\TakeHomeTest" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.intercom.customers.nearestcustomers" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\interview\intercom\TakeHomeTest" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\interview\intercom\TakeHomeTest\src\main\java\org\intercom\proudestachievement" />
     </key>
   </component>
   <component name="RunManager" selected="Application.NearestCustomersApplication">
     <configuration name="NearestCustomersApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.intercom.customers.NearestCustomersApplication" />
+      <option name="MAIN_CLASS_NAME" value="org.intercom.customers.nearestcustomers.NearestCustomersApplication" />
       <module name="TakeHomeTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.intercom.customers.*" />
+          <option name="PATTERN" value="org.intercom.customers.nearestcustomers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,7 +188,8 @@
       <option name="presentableId" value="Default" />
       <updated>1596976697213</updated>
       <workItem from="1596976707312" duration="3950000" />
-      <workItem from="1596981127185" duration="30381000" />
+      <workItem from="1596981127185" duration="31177000" />
+      <workItem from="1597058964062" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1596981926156</created>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597024884967</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added KanikaGhiloria_ProudestAchievement.pdf and other small updates">
+      <created>1597028994327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597028994327</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,41 +238,46 @@
     <MESSAGE value="Logic and Test Cases" />
     <MESSAGE value="unversioned files" />
     <MESSAGE value="Addition of maven plugins and README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addition of maven plugins and README.md" />
+    <MESSAGE value="Added KanikaGhiloria_ProudestAchievement.pdf and other small updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added KanikaGhiloria_ProudestAchievement.pdf and other small updates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1597001822640">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1597001822640" />
+    <state x="435" y="211" width="456" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597059052663">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="435" y="211" width="456" height="265" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1597059052663" />
     <state x="280" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597001221514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="280" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1597001221514" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597024882177">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597028992794">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597024882177" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597028992794" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1597021886446">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597021886446" />
-    <state width="1237" height="72" key="GridCell.Tab.0.bottom" timestamp="1597024852973">
+    <state width="1237" height="72" key="GridCell.Tab.0.bottom" timestamp="1597029729211">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="72" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597024852973" />
-    <state width="1237" height="72" key="GridCell.Tab.0.center" timestamp="1597024852970">
+    <state width="1237" height="72" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597029729211" />
+    <state width="1237" height="72" key="GridCell.Tab.0.center" timestamp="1597029729210">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="72" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597024852970" />
-    <state width="1237" height="72" key="GridCell.Tab.0.left" timestamp="1597024852970">
+    <state width="1237" height="72" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597029729210" />
+    <state width="1237" height="72" key="GridCell.Tab.0.left" timestamp="1597029729209">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="72" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597024852970" />
-    <state width="1237" height="72" key="GridCell.Tab.0.right" timestamp="1597024852971">
+    <state width="1237" height="72" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597029729209" />
+    <state width="1237" height="72" key="GridCell.Tab.0.right" timestamp="1597029729210">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="72" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597024852971" />
+    <state width="1237" height="72" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597029729210" />
     <state x="289" y="0" key="Maven.ArtifactSearchDialog" timestamp="1597022191610">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -274,10 +286,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597021899953" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1597024889359">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1597029004065">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597024889359" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597029004065" />
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1597058980234">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="349" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1597058980234" />
+    <state x="452" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597059111309">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="452" y="261" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1597059111309" />
     <state x="412" y="62" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597004158171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

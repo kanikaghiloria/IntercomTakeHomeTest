@@ -38,7 +38,7 @@ Check the version using command:
     This command will also run the unit test cases.
 3. Run the project using command:
 
-    _java -cp target\TakeHomeTest-1.0-SNAPSHOT.jar org.intercom.customers.NearestCustomersApplication_
+    _java -cp target\TakeHomeTest-1.0-SNAPSHOT.jar org.intercom.customers.nearestcustomers.NearestCustomersApplication_
     
     List of users falling within the range of 100 km from Dublin office will be displayed. 
     

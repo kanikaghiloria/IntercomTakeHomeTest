@@ -1,5 +1,6 @@
-package org.intercom.customers;
+package org.intercom.customers.nearestcustomers;
 
+import org.intercom.customers.Constants;
 import org.intercom.customers.nearestcustomers.NearestCustomers;
 import org.intercom.customers.utils.InputFileHandler;
 import org.intercom.customers.utils.OutputFileHandler;
