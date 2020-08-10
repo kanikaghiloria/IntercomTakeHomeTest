@@ -2,12 +2,12 @@ package org.intercom.customers.utils;
 
 import org.intercom.customers.core.Customer;
 import org.intercom.customers.core.Location;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.io.*;
 import java.net.URL;
+import java.text.ParseException;
 import java.util.ArrayList;
 
 public class InputFileHandler {
@@ -37,7 +37,7 @@ public class InputFileHandler {
         writer.close();
         return customersDataJSONFile;
     }
-    public ArrayList<Customer> getAllCustomersFromFile() throws IOException, ParseException {
+    public ArrayList<Customer> getAllCustomersFromFile() throws IOException, JSONException {
         File jsonFile = copyJSONFileFromUrl();
 //        ArrayList<Customer> customers = new ArrayList<>();
 //        JSONObject jsonObject =
@@ -46,15 +46,17 @@ public class InputFileHandler {
         while(line != null)
         {
 //            JSONObject jsonObject = new JSONObject(line);
-            JSONParser parser = new JSONParser();
-            Object object = parser.parse(line);
-            JSONObject jsonObject = (JSONObject) object;
+//            JSONParser parser = new JSONParser();
+//            Object object = parser.parse(line);
+//
+//            JSONObject jsonObject = (JSONObject) object;
+            JSONObject jsonObject = new JSONObject(line);
 
             String latitude = (String) jsonObject.get("latitude");
-            long userID = (long) jsonObject.get("user_id");
+            int userID = (int) jsonObject.get("user_id");
             String name = (String) jsonObject.get("name");
             String longitude = (String) jsonObject.get("longitude");
-            customers.add(new Customer(userID, name, new Location(Double.parseDouble(latitude), Double.parseDouble(longitude))));
+            customers.add(new Customer((long) userID, name, new Location(Double.parseDouble(latitude), Double.parseDouble(longitude))));
             line = reader.readLine();
         }
         reader.close();

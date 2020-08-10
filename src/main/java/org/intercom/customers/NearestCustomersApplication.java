@@ -3,14 +3,15 @@ package org.intercom.customers;
 import org.intercom.customers.nearestcustomers.NearestCustomers;
 import org.intercom.customers.utils.InputFileHandler;
 import org.intercom.customers.utils.OutputFileHandler;
-import org.json.simple.parser.ParseException;
+import org.json.JSONException;
 
 import java.io.IOException;
 import java.net.URL;
+import java.text.ParseException;
 import java.util.TreeMap;
 
 public class NearestCustomersApplication {
-    public static void main(String[] args) throws IOException, ParseException {
+    public static void main(String[] args) throws IOException, JSONException {
         URL url = new URL(Constants.CUSTOMERS_FILE_URL);
         InputFileHandler reader = new InputFileHandler(url, Constants.CUSTOMERS_DATA_JSON_FILE_PATH);
         OutputFileHandler writer = new OutputFileHandler(Constants.OUTPUT_FILE_PATH);

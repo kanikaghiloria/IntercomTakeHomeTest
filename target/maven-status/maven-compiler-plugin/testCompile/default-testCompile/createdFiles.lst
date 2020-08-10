@@ -1,0 +1,3 @@
+org\intercom\customers\nearestcustomers\NearestCustomersTest.class
+org\intercom\customers\utils\DistanceTest.class
+org\intercom\customers\utils\OutputFileHandlerTest.class

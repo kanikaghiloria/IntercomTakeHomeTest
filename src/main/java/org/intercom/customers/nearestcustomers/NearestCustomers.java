@@ -42,7 +42,7 @@ public class NearestCustomers {
         else
         {
             for(Map.Entry<Long, String> entry : nearestCustomers.entrySet())
-                System.out.println("{\"User ID\": " + entry.getKey() + ", \"User Name\": " + entry.getValue() + "}"+ "\n");
+                System.out.println("{\"User ID\": " + entry.getKey() + ", \"User Name\": " + entry.getValue() + "}");
         }
     }
 }
