@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9a43e6f-131c-4b33-a42e-149cb35e61c9" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/intercom/customers/utils/JSONFileReaderTest.java" afterDir="false" />
+    <list default="true" id="f9a43e6f-131c-4b33-a42e-149cb35e61c9" name="Default Changelist" comment="Logic and Test Cases">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/NearestCustomersApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/core/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/nearestcustomers/NearestCustomers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/utils/Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/utils/InputFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/utils/OutputFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/customer_data_json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/intercom/customers/nearestcustomers/NearestCustomersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/intercom/customers/utils/DistanceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/intercom/customers/utils/OutputFileHandlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/core/CustomerPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/core/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/core/LocationPOJO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/utils/JSONFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/intercom/customers/utils/JSONFileReaderTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -32,13 +62,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1frWT7qXrrKe22IQQam56SO0vYE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -46,15 +80,107 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.intercom.customers" />
       <recent name="org.intercom.customers.utils" />
+      <recent name="org.intercom.customers.nearestcustomers" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.InputFileHandlerTest">
+    <configuration name="NearestCustomersApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.intercom.customers.NearestCustomersApplication" />
+      <module name="TakeHomeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.intercom.customers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistanceTest.distanceBetweenLocations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TakeHomeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.intercom.customers.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.intercom.customers.utils" />
+      <option name="MAIN_CLASS_NAME" value="org.intercom.customers.utils.DistanceTest" />
+      <option name="METHOD_NAME" value="distanceBetweenLocations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputFileHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TakeHomeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.intercom.customers.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.intercom.customers.utils" />
+      <option name="MAIN_CLASS_NAME" value="org.intercom.customers.utils.InputFileHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearestCustomersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TakeHomeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.intercom.customers.nearestcustomers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.intercom.customers.nearestcustomers" />
+      <option name="MAIN_CLASS_NAME" value="org.intercom.customers.nearestcustomers.NearestCustomersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NearestCustomersTest.getAllNearestCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TakeHomeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.intercom.customers.nearestcustomers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.intercom.customers.nearestcustomers" />
+      <option name="MAIN_CLASS_NAME" value="org.intercom.customers.nearestcustomers.NearestCustomersTest" />
+      <option name="METHOD_NAME" value="getAllNearestCustomers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InputFileHandlerTest" />
+        <item itemvalue="JUnit.NearestCustomersTest" />
+        <item itemvalue="JUnit.NearestCustomersTest.getAllNearestCustomers" />
+        <item itemvalue="JUnit.DistanceTest.distanceBetweenLocations" />
+        <item itemvalue="Application.NearestCustomersApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,33 +193,75 @@
       <option name="presentableId" value="Default" />
       <updated>1596976697213</updated>
       <workItem from="1596976707312" duration="3950000" />
-      <workItem from="1596981127185" duration="541000" />
+      <workItem from="1596981127185" duration="22888000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1596981926156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596981926157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Logic and Test Cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logic and Test Cases" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1596979216156">
+    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1597001822640">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1596979216156" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1596981370122">
+    <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1597001822640" />
+    <state x="280" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597001221514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1596981370122" />
+    <state x="280" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1597001221514" />
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597017900838">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597017900838" />
+    <state width="1237" height="271" key="GridCell.Tab.0.bottom" timestamp="1597017843913">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="271" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597017843913" />
+    <state width="1237" height="271" key="GridCell.Tab.0.center" timestamp="1597017843913">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="271" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597017843913" />
+    <state width="1237" height="271" key="GridCell.Tab.0.left" timestamp="1597017843912">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="271" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597017843912" />
+    <state width="1237" height="271" key="GridCell.Tab.0.right" timestamp="1597017843913">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="271" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597017843913" />
     <state x="289" y="0" key="Maven.ArtifactSearchDialog" timestamp="1596981899074">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="289" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1596981899074" />
-    <state x="412" y="62" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596981732384">
+    <state x="144" y="0" key="SettingsEditor" timestamp="1596987919759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="412" y="62" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1596981732384" />
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596987919759" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1596981932743">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1596981932743" />
+    <state x="412" y="62" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597004158171">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="412" y="62" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1597004158171" />
+    <state x="350" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1597002324016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="350" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1597002324016" />
   </component>
 </project>
