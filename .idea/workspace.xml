@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9a43e6f-131c-4b33-a42e-149cb35e61c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/NearestCustomersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/NearestCustomersApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/nearestcustomers/NearestCustomers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/nearestcustomers/NearestCustomers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/intercom/customers/utils/InputFileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/intercom/customers/utils/InputFileHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TakeHomeTest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TakeHomeTest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/TakeHomeTest-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/NearestCustomersApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/NearestCustomersApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/core/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/core/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/core/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/core/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/nearestcustomers/NearestCustomers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/nearestcustomers/NearestCustomers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/utils/Distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/utils/Distance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/utils/InputFileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/utils/InputFileHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/intercom/customers/utils/OutputFileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/intercom/customers/utils/OutputFileHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TakeHomeTest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/intercom/customers/nearestcustomers/NearestCustomersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/intercom/customers/nearestcustomers/NearestCustomersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/intercom/customers/utils/DistanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/intercom/customers/utils/DistanceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/intercom/customers/utils/OutputFileHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/intercom/customers/utils/OutputFileHandlerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-TakeHomeTest-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-TakeHomeTest-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.nearestcustomers.NearestCustomersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.nearestcustomers.NearestCustomersTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.utils.DistanceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.utils.DistanceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.utils.OutputFileHandlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-org.intercom.customers.utils.OutputFileHandlerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.nearestcustomers.NearestCustomersTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.nearestcustomers.NearestCustomersTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.utils.DistanceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.utils.DistanceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.utils.OutputFileHandlerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/org.intercom.customers.utils.OutputFileHandlerTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +72,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/org/intercom/proudestachievement" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -200,7 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596976697213</updated>
       <workItem from="1596976707312" duration="3950000" />
-      <workItem from="1596981127185" duration="29591000" />
+      <workItem from="1596981127185" duration="30381000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1596981926156</created>
@@ -223,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597018059401</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Addition of maven plugins and README.md">
+      <created>1597024884966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597024884967</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +230,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Logic and Test Cases" />
     <MESSAGE value="unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="unversioned files" />
+    <MESSAGE value="Addition of maven plugins and README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition of maven plugins and README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1597001822640">
@@ -245,10 +242,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="280" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1597001221514" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597024869554">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1597024882177">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597024869554" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597024882177" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1597021886446">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -277,10 +274,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1597021899953" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1597018067763">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1597024889359">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597018067763" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597024889359" />
     <state x="412" y="62" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597004158171">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
