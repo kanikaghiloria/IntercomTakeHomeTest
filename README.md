@@ -40,7 +40,7 @@ Check the version using command:
 
     _java -cp target\TakeHomeTest-1.0-SNAPSHOT.jar org.intercom.customers.NearestCustomersApplication_
     
-    List of users falling the range of 100 km from Dublin office will be displayed. 
+    List of users falling within the range of 100 km from Dublin office will be displayed. 
     
     A text file containing the output will also be created. The already generated file is present at:
     
