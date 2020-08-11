@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class NearestCustomers {
-    TreeMap<Long, String> nearestCustomers;
+    private TreeMap<Long, String> nearestCustomers;
 //    int size;
 
     public NearestCustomers() {

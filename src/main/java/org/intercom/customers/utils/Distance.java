@@ -5,8 +5,8 @@ import org.intercom.customers.core.Location;
 
 public class Distance {
 
-    Double distance;
-    Location firstLocation, secondLocation;
+    private Double distance;
+    private Location firstLocation, secondLocation;
     public Distance(Location firstLocation, Location secondLocation) {
         this.firstLocation = firstLocation;
         this.secondLocation = secondLocation;

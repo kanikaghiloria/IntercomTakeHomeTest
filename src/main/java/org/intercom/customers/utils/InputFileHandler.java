@@ -11,9 +11,9 @@ import java.text.ParseException;
 import java.util.ArrayList;
 
 public class InputFileHandler {
-    ArrayList<Customer> customers = new ArrayList<>();
-    File customersDataJSONFile;
-    URL url;
+    private ArrayList<Customer> customers = new ArrayList<>();
+    private File customersDataJSONFile;
+    private URL url;
     public InputFileHandler(URL url, String customerDataFilePath) {
         this.url = url;
         this.customersDataJSONFile = new File(customerDataFilePath);

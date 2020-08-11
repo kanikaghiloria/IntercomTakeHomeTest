@@ -6,20 +6,20 @@ import java.io.*;
 import java.util.Map;
 
 public class OutputFileHandler {
-    File output;
-    FileOutputStream fosW;
-    BufferedWriter writer;
+    private File outputFile;
+    private FileOutputStream fosW;
+    private BufferedWriter writer;
 
     public OutputFileHandler(String outputFilePath) {
-        this.output = new File(outputFilePath);
+        this.outputFile = new File(outputFilePath);
     }
 
     public File getOutput() {
-        return output;
+        return outputFile;
     }
 
     public void writeToOutputFile(Map<Long, String> map) throws IOException {
-        fosW = new FileOutputStream(output);
+        fosW = new FileOutputStream(outputFile);
         writer = new BufferedWriter(new OutputStreamWriter(fosW));
         String line;
         for(Map.Entry<Long, String> entry : map.entrySet())
